@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+
+<html lang="eng">
+
+<head>
+    <link rel="stylesheet" type="text/css" href=" style.css"> 
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="game">
+        <h1 style="font-size: 50px;">Hangman</h1>
+        <div class="keyboard"></div>
+        <p id="message"></p>
+        <p id="word"></p>
+        <canvas id="Canvas" width="400" height="400" style="border:1px solid #000000"></canvas>
+        <div class="lose">
+            <h1>You lose</h1>
+        </div>
+    </div>
+    <div class="screen">
+        <h1>Hangman</h1>
+        <button id="start">Start game</button>
+        <button id="how">How to play</button>
+    </div>
+    <div class="howto">
+        <h2>How to play Hangman</h2>
+        <h3>Hangman is a geussing game where you have to guess a specific word</h3>
+        <button id="x">x</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
